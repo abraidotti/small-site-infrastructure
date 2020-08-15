@@ -9,5 +9,7 @@ variable "redirect" {
 }
 
 variable "aws_profile" {
-    type = string
+  description = "AWS profile found in .aws/credentials"
+  type = string
+  default = ""
 }
